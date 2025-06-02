@@ -40,7 +40,7 @@ jobs:
           node-version: 22
 
       - name: Install frontend deps
-        working-directory: Brontend
+        working-directory: Frontend
         run: |
           npm install
           npm run build
